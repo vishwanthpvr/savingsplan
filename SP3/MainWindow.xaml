@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SP3.MainPage">
+
+    <StackLayout>
+        <Entry x:Name="TickerSymbol" Placeholder="Ticker" />
+        <Entry x:Name="StrikePrice" Placeholder="Strike Price" />
+        <Entry x:Name="ExpiryDate" Placeholder="Expiry" />
+        <!-- Other UI elements -->
+        <Button Text="Decipher" Clicked="Decipher_Click" />
+        <Button Text="Buy Option" Clicked="Buy_Click" />
+        <Button Text="BuyStopLimit" Clicked="buyStopLimit_Click" />
+        <Entry x:Name="messageText" Placeholder="Message" />
+        <Label Text="Alert Price" />
+        <Entry x:Name="alertPrice" Placeholder="Alert Price" Keyboard="Numeric" />
+        <!-- Other UI elements -->
+        <Button Text="Buy Option" Clicked="Buy_Click" />
+        <!-- Other UI elements -->
+        <Label Text="Contracts" />
+        <Entry x:Name="numberOfContracts" Placeholder="Number of Contracts" Keyboard="Numeric" />
+        <Button Text="Buy Option" Clicked="Buy_Click" />
+        <Label Text="DataGrid Placeholder" />
+    </StackLayout>
+</ContentPage>
